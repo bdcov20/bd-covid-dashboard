@@ -1,7 +1,7 @@
 ---
 title: "Bangladesh COVID-19 Socio-Economic Dashboard"
-author: "vasudha"
-date: "11/30/2020"
+author: "Y-RISE & a2i"
+date: "Dec 2, 2020"
 output: html_document
 ---
 
@@ -15,8 +15,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-#   {.tabset .tabset-pills} 
-## Food Security and Market Access {.tabset  .tabset-pills}
+#   Socio-economic indicators {.tabset .tabset-pills} 
+## Food Security & Market Access {.tabset  .tabset-pills}
 
 ### Trends
 % hh Skipping Meals
@@ -25,7 +25,9 @@ knitr::opts_chunk$set(echo = TRUE)
 plot(pressure)
 ```
 
-% hh able to buy essential food items (compare to previous week)
+%hh skipping meals
+
+%hh able to buy essential food items (compare to  previous week)
 
 Amount of rice, lentil, onion and potato bought last time
 
@@ -33,17 +35,67 @@ Share HH facing market closure
 
 Change in commodity prices over time
 
+
 ### Maps
 
 ### Definition of Measures
 
-## Income Effect/Seasonality {.tabset  .tabset-pills}
+## Income Effect {.tabset  .tabset-pills}
+
+### Trends
+Difference in monthly income
+(show breakdown by source)
+
+
+### Maps
+
+### Definition of Measures
 
 ## Exposure to Migration {.tabset  .tabset-pills}
 
+### Trends
+Food security 
+
+Change in income
+
+% migrate (by district)
+
+% return (by district) – jan-march
+
+YoY Change in Remittance (by district)
+
+
+### Maps
+
+### Definition of Measures
+
 ## Social Transfers {.tabset  .tabset-pills}
 
-## COVID-19 Awareness {.tabset  .tabset-pills}
+### Trends
+Number HHs receiving support
 
-## COVID-19 Symptoms/Health {.tabset  .tabset-pills}
+Value of the support provided
+
+%hh receiving support from NGO/Govt for Covid-19 
+
+
+### Maps
+
+### Definition of Measures
+
+## COVID-19 Awareness/Symptoms {.tabset  .tabset-pills}
+
+### Trends
+%people wearing mask
+
+%people attend prayers at
+
+%people attend social gatherings
+
+% selling assets to deal with Covid
+
+% people and/or household members experienced any of the symptoms in the past 2 weeks
+### Maps
+
+### Definition of Measures
 
