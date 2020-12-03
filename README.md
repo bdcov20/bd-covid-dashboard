@@ -1,1 +1,1 @@
-# bd-dashboard.github.io-covid-sei
+# bdcov20.github.io/bd-covid-dashboard
