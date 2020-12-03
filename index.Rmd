@@ -22,6 +22,10 @@ knitr::opts_chunk$set(echo = TRUE)
 % hh Skipping Meals
 
 ```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/food_ins_time.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
 knitr::include_graphics("figures/fd_ins.png")
 ```
 
@@ -67,9 +71,6 @@ Difference in monthly income
 knitr::include_graphics("figures/pre_post_income.png")
 ```
 
-```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
-knitr::include_graphics("figures/sell_assets_use_savings_2.png")
-```
 
 ### Maps
 
@@ -80,7 +81,19 @@ knitr::include_graphics("figures/sell_assets_use_savings_2.png")
 ### Trends
 Food security 
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/nls_food_ins_mig.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/cbps_food_ins_mig.png")
+```
+
 Change in income
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/g2g_inc_mig.png")
+```
 
 % migrate (by district)
 
@@ -132,6 +145,10 @@ knitr::include_graphics("figures/widow allowance_fy19-20.png")
 %people attend social gatherings
 
 % selling assets to deal with Covid
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/sell_assets_use_savings_2.png")
+```
 
 % people and/or household members experienced any of the symptoms in the past 2 weeks
 ### Maps
