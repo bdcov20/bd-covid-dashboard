@@ -20,15 +20,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Trends
 % hh Skipping Meals
+
 ```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
-knitr::include_graphics("figures/fd_ins.pdf")
+knitr::include_graphics("figures/fd_ins.png")
 ```
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-%hh skipping meals
 
 %hh able to buy essential food items (compare to  previous week)
 
@@ -36,8 +31,27 @@ Amount of rice, lentil, onion and potato bought last time
 
 Share HH facing market closure
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/mkts_clsd.png")
+```
+
 Change in commodity prices over time
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/aman_coarse.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/masur_local.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/onion_group.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/potato_group.png")
+```
 
 ### Maps
 
@@ -49,6 +63,13 @@ Change in commodity prices over time
 Difference in monthly income
 (show breakdown by source)
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/pre_post_income.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/sell_assets_use_savings_2.png")
+```
 
 ### Maps
 
@@ -81,8 +102,23 @@ Value of the support provided
 
 %hh receiving support from NGO/Govt for Covid-19 
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/ngo_gov_sprt.png")
+```
 
 ### Maps
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/Disability allowance_fy19-20.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/oldage allowance_fy19-20.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/widow allowance_fy19-20.png")
+```
 
 ### Definition of Measures
 
