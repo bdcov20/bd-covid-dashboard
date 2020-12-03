@@ -20,6 +20,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Trends
 % hh Skipping Meals
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/fd_ins.pdf")
+```
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
