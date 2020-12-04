@@ -23,7 +23,7 @@ Tracking Economic Consequences and Responses to COVID-19 in Bangladesh. Access t
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-[^1^]: Collobartive effort between the a2i and Y-RISE
+[^1^]: Collaborative effort between the a2i and Y-RISE
 
 #  {.tabset .tabset-pills} 
 ## Food Security & Market Access {.tabset  .tabset-pills}
