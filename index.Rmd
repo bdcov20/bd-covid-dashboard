@@ -1,0 +1,161 @@
+---
+title: "Bangladesh COVID-19 Socio-Economic Dashboard"
+author: "Y-RISE & a2i"
+date: "Dec 2, 2020"
+output: html_document
+---
+
+Tracking Economic Consequences and Responses to COVID-19 in Bangladesh
+
+Access to information on key economic indicators is essential to help policy-makers in Bangladesh respond to the Covid-19 pandemic.
+
+The dashboard provides data on current economic conditions and trends from administrative and phone based survey in Bangladesh.
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#   Socio-economic indicators {.tabset .tabset-pills} 
+## Food Security & Market Access {.tabset  .tabset-pills}
+
+### Trends
+% hh Skipping Meals
+
+```{r , echo=FALSE, fig.cap="Changes in food insecurity compared to the previous year, Northern Bangladesh (NLS)", out.width = '70%'}
+knitr::include_graphics("figures/food_ins_time.png")
+```
+
+```{r , echo=FALSE, fig.cap="Reported food insecurity in April (?) across multiple samples", out.width = '70%'}
+knitr::include_graphics("figures/fd_ins.png")
+```
+
+%hh able to buy essential food items (compare to  previous week)
+
+Amount of rice, lentil, onion and potato bought last time
+
+Share HH facing market closure
+
+```{r , echo=FALSE, fig.cap="Reported market closures in April (?) across multiple samples", out.width = '70%'}
+knitr::include_graphics("figures/mkts_clsd.png")
+```
+
+Change in commodity prices over time
+
+```{r , echo=FALSE, fig.cap="Daily district level market price of aman (coarse) rice", out.width = '70%'}
+knitr::include_graphics("figures/aman_coarse.png")
+```
+
+```{r , echo=FALSE, fig.cap="Daily district level market price of local masur", out.width = '70%'}
+knitr::include_graphics("figures/masur_local.png")
+```
+
+```{r , echo=FALSE, fig.cap="Daily district level market price of onions", out.width = '70%'}
+knitr::include_graphics("figures/onion_group.png")
+```
+
+```{r , echo=FALSE, fig.cap="Daily district level market price of potatoes", out.width = '70%'}
+knitr::include_graphics("figures/potato_group.png")
+```
+
+### Maps
+
+### Definition of Measures
+
+## Income Effect {.tabset  .tabset-pills}
+
+### Trends
+Difference in monthly income
+(show breakdown by source)
+
+```{r , echo=FALSE, fig.cap="Changes in monthly income before and after COVID-19 lockdown", out.width = '70%'}
+knitr::include_graphics("figures/pre_post_income.png")
+```
+
+
+### Maps
+
+### Definition of Measures
+
+## Exposure to Migration {.tabset  .tabset-pills}
+
+### Trends
+Food security 
+
+```{r , echo=FALSE, fig.cap="Food insecurity between migrant and non-migrant sending households, Northern Bangladesh (NLS)", out.width = '70%'}
+knitr::include_graphics("figures/nls_food_ins_mig.png")
+```
+
+```{r , echo=FALSE, fig.cap="Food insecurity between migrant and non-migrant sending households, Cox's Bazar (CBPS)", out.width = '70%'}
+knitr::include_graphics("figures/cbps_food_ins_mig.png")
+```
+
+Change in income
+
+```{r , echo=FALSE, fig.cap="Food insecurity between migration lottery winners and losers (G2G)", out.width = '70%'}
+knitr::include_graphics("figures/g2g_inc_mig.png")
+```
+
+% migrate (by district)
+
+% return (by district) – jan-march
+
+YoY Change in Remittance (by district)
+
+
+### Maps
+
+```{r , echo=FALSE, fig.cap="District level changes in remittances, Bangladesh Bank", out.width = '70%'}
+knitr::include_graphics("figures/Change in Remittance.png")
+```
+
+### Definition of Measures
+
+## Social Transfers {.tabset  .tabset-pills}
+
+### Trends
+Number HHs receiving support
+
+Value of the support provided
+
+%hh receiving support from NGO/Govt for Covid-19 
+
+```{r , echo=FALSE, fig.cap="Reported receipts of Government or NGO aid in April (?) across multiple samples", out.width = '70%'}
+knitr::include_graphics("figures/ngo_gov_sprt.png")
+```
+
+### Maps
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/Disability allowance_fy19-20.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/oldage allowance_fy19-20.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/widow allowance_fy19-20.png")
+```
+
+### Definition of Measures
+
+## COVID-19 Awareness/Symptoms {.tabset  .tabset-pills}
+
+### Trends
+%people wearing mask
+
+%people attend prayers at
+
+%people attend social gatherings
+
+% selling assets to deal with Covid
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/sell_assets_use_savings_2.png")
+```
+
+% people and/or household members experienced any of the symptoms in the past 2 weeks
+### Maps
+
+### Definition of Measures
+
