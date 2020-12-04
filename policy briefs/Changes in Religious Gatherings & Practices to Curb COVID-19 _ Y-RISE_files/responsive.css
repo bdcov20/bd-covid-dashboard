@@ -1,0 +1,2390 @@
+/**
+ * Contains responsive styling
+ *
+ * @author Pix & Hue 
+ */
+
+/*-----------------------------------------------------------------------------------
+TABLE OF CONTENTS: CSS Media Queries
+
+1. Max-Width: 1275px
+2. Max-Width: 1150px
+3. Max-Width: 1050px
+4. Max-Width: 915px
+5. Max-Width: 850px
+6. Max-Width: 767px
+7. Max-Width: 550px
+-----------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1275px) { 
+	
+	/* -- YRISE Header -- */
+	.yrise-header-container {
+		width: 1075px;
+	}
+	#yrise-nav-wrapper {
+		width: 72%;
+		margin-left: 5%;
+	}	
+	#yrise-nav-wrapper.yrise-sticky-nav-wrapper { 
+		margin-top: -30.5px;
+		width: 78.5%;
+	}
+
+	/* -- Featured Images -- */
+	.yrise-parallax-container,
+	.yrise-feat-overlay {
+		height: 525px;
+	}
+	.yrise-feat-caption-text {
+		margin: 120px auto 0;
+	}	
+	.yrise-feat-image .yrise-feat-caption h4 {
+		font-size: 34px;
+	}
+	.yrise-feat-caption-text {
+		max-width: 695px;
+	}
+	.page-id-2298 .yrise-feat-caption-text,
+	.parent-pageid-2298 .yrise-feat-caption-text {
+		max-width: 700px;
+	}
+	
+	/* -- Home Page -- */
+	.yrise-home-filler-column {
+		width: 66.5% !important;
+	}
+
+	/* -- People Page -- */
+	.yrise-people-themes-title {
+		margin-top: -165px;
+		padding-top: 165px !important;
+	}
+
+	/* -- Research Output Page -- */
+	.yrise-policy-briefs-icon .elementor-widget-container {
+		margin: -75px -45px -75px 0px !important;
+	}
+
+	/* -- Projects Page -- */
+	.yrise-projects-lg-image-text-column {
+		width: 32% !important;
+	}
+}
+
+
+@media only screen and (max-width: 1150px) { 
+	
+	/* -- YRISE Header -- */
+	.yrise-header-container {
+		width: 1000px;
+	}
+	#yrise-nav-wrapper {
+		width: 72%;
+		margin-left: 5%;
+	}	
+	#yrise-nav-wrapper.yrise-sticky-nav-wrapper {
+		margin-top: -27.5px;
+		width: 77%;
+	}
+
+	/* -- Featured Images -- */
+	.yrise-parallax-container,
+	.yrise-feat-overlay {
+		height: 475px;
+	}
+	.yrise-feat-caption-text {
+		margin: 110px auto 0;
+	}	
+
+	/* -- Parallax Sections -- */ 
+	.yrise-home-parallax-section {
+		height: 475px;
+	}
+	.yrise-home-parallax-section .yrise-parallax-content-section {
+		padding: 50px 0 0 50px !important;
+	}
+	.yrise-home-parallax-section.yrise-home-right-float .yrise-parallax-content-section {
+		padding: 50px 50px 0 0 !important;
+	}
+
+	/* -- Home Page -- */ 
+	.yrise-five-circle-section > .elementor-container {
+		max-width: 1050px !important;
+	}
+	.yrise-five-circle-column {
+		height: 210px;
+		width: 210px !important
+	}
+	.yrise-five-circle-column .yrise-circle-content {
+		height: 210px;
+		max-width: 210px;
+	}
+	.yrise-five-circle-column .elementor-heading-title {
+		font-size: 13px !important;
+		line-height: 1.2 !important;
+	}
+	.yrise-five-circle-column {
+		font-size: 16px !important;
+	}
+	.yrise-five-circle-column.yrise-column-three .elementor-widget-text-editor .elementor-widget-container {
+		padding: 0 !important;
+	}
+	.yrise-jobs-news-section .elementor-row {
+		width: 915px !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-image {
+		width: 8% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-button {
+		left: 45px;
+		top: 9px;
+	}
+	.yrise-jobs-news-section .elementor-widget-button.yrise-home-second-button {
+		left: 233px;
+	}
+
+	/* -- Research Output Page -- */
+	.yrise-policy-briefs-icon .elementor-widget-container {
+		margin: -75px -15px -75px 0px !important;
+	}
+
+	/* -- Partners Page -- */
+	.yrise-themes-lg-icon.yrise-partners-page.yrise-ipab .elementor-widget-container {
+		margin-right: 0px !important;
+	}
+
+	/* -- Projects Page -- */
+	.yrise-projects-lg-image-text-column {
+		width: 38% !important;
+	}
+}	
+
+
+@media only screen and (max-width: 1050px) {
+
+	/* -- YRISE Header -- */
+	.yrise-header-container {
+		width: 860px;
+	}
+	.yrise-site-logo {
+		width: 170px;
+	}
+	#yrise-nav-wrapper {
+		width: 75%;
+		margin-left: 4%;
+	}
+	#yrise-nav-wrapper .menu li.menu-item-has-children {
+		margin-right: 32px;
+	}
+	#yrise-nav-wrapper .menu li {
+		margin: 0 18px 0 22px;
+	}
+	#yrise-nav-wrapper .menu li a,
+	#yrise-nav-wrapper.yrise-sticky-nav-wrapper .menu li a {
+		font-size: 14px;
+	}
+	#yrise-nav-wrapper .menu li:last-of-type {
+		margin: 0 0 0 22px;
+	}
+	#yrise-nav-wrapper.yrise-sticky-nav-wrapper {
+		margin-top: -27.5px;
+		width: 75%;
+	}
+
+	/* -- Featured Images -- */
+	.yrise-parallax-container,
+	.yrise-feat-overlay {
+		height: 450px;
+	}
+	.yrise-feat-caption-text {
+		margin: 85px auto 0;
+		max-width: 600px;
+	}	
+	.yrise-feat-image .yrise-feat-caption h4 {
+		font-size: 35px;
+	}
+
+	/* -- Global Styles -- */
+	.yrise-container {
+		width: 860px;
+	}
+	.elementor-section.elementor-section-boxed>.elementor-container  {
+		max-width: 860px !important;
+	}
+	.yrise-parallax-container, 
+	.yrise-feat-overlay {
+		height: 450px;
+	}
+	.yrise-page-heading .elementor-heading-title {
+		font-size: 32px !important;
+	}
+
+	/* -- Parallax Sections -- */ 
+	.yrise-home-parallax-section {
+		height: 450px;
+	}	
+	.yrise-parallax-circle-column {
+		height: 315px !important;
+		width: 315px !important;
+	}
+	.yrise-parallax-circle-column .elementor-column-wrap {
+		width: 315px;
+	}	
+	.yrise-parallax-circle-column .elementor-widget-wrap {
+		max-width: 315px;
+	}
+	.yrise-parallax-heading .elementor-heading-title {
+		font-size: 21px !important;
+		line-height: 26px !important;
+	}
+	.yrise-parallax-heading .elementor-widget-container {
+		margin-bottom: 15px !important;
+		padding: 0 50px !important;
+	}
+	.yrise-home-parallax-section .elementor-icon-list-item {
+		font-size: 14.5px !important;
+		line-height: 24px !important;
+		margin: 0 0 5px 0 !important;
+	}
+	.yrise-home-parallax-section .elementor-icon-list-item:last-of-type {
+		margin: 0 !important;
+	}
+	.yrise-parallax-circle-column.yrise-parallax-two .elementor-widget-icon-list .elementor-widget-container {
+		padding: 0 40px !important;
+	}
+	.yrise-parallax-circle-column.yrise-parallax-one .elementor-widget-icon-list .elementor-widget-container {
+		padding: 0 !important;
+	}
+	.yrise-parallax-three .elementor-icon-list-item:first-of-type,
+	.yrise-parallax-three .elementor-icon-list-item:last-of-type {
+		width: auto;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:nth-of-type(2) {
+		width: 276px;
+		margin: 0 auto !important;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:nth-of-type(3) {
+		width: 223px;
+		margin: 0 auto !important;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:last-of-type {
+		width: 203px;
+		margin: 0 auto !important;
+	}
+	
+	/* -- Home Page -- */
+	.yrise-home-intro-section .elementor-widget-text-editor .elementor-widget-container {
+		padding: 0 80px !important;
+		font-size: 17px;
+	}
+	.yrise-five-circle-section  {
+		margin-bottom: 140px !important;
+	}
+	.yrise-five-circle-section > .elementor-container {
+		max-width: 915px !important;
+	}
+	.yrise-five-circle-column {
+		height: 200px;
+		width: 200px !important
+	}
+	.yrise-five-circle-column .yrise-circle-content {
+		height: 200px;
+		max-width: 200px;
+	}
+	.elementor-row > .yrise-five-circle-link:first-of-type {
+		margin: 30px -70px -30px 0;
+	}
+	.elementor-row > .yrise-five-circle-column:first-of-type {
+		margin: 30px 0 -30px -70px;
+	}
+	.yrise-no-lean-season-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-microfinance-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-rainfall-section .yrise-home-section-description .elementor-widget-container {
+		padding: 0 90px 0 !important;
+		font-size: 16px !important;
+		line-height: 1.5 !important;
+	}
+	.yrise-three-icons-section {
+		padding: 5px 55px 0 !important;
+	}
+	.yrise-home-microfinance-section .yrise-three-icons-section {
+		padding: 5px 160px 0 !important;
+	}
+	.yrise-home-icons-section-custom .yrise-three-icons-column {
+		width: 233px !important;
+		margin-right: 25px;
+	}
+	.yrise-parallax-heading:after {
+		width: 115px;
+	}	
+	.yrise-parallax-two .yrise-parallax-heading:after {
+		width: 165px;
+	}
+	.yrise-home-parallax-section:last-of-type .elementor-widget-icon-list .elementor-widget-container {
+		padding: 0 58px !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-image {
+		width: 9.5% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-heading,
+	.yrise-jobs-news-section .elementor-widget-button {
+		width: 88.1% !important;
+	}
+	.yrise-home-jobs-column {
+		width: 45% !important;
+	}
+	.yrise-home-news-column {
+		width: 55% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-image {
+		width: 10.25% !important;
+	}
+	.yrise-jobs-news-section .yrise-home-news-column .elementor-widget-image {
+		width: 8.4% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-heading,
+	.yrise-jobs-news-section .elementor-widget-button {
+		width: 86.9% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-button {
+		left: 50px;
+		top: 12px;
+	}
+	.yrise-jobs-news-section .elementor-widget-button.yrise-home-second-button {
+		left: 238px;
+	}
+	
+	/* -- Themes Page -- */ 
+	.yrise-theme-icon-column {
+		margin-right: 26.6667px !important;
+	}
+	.yrise-theme-icon-column-link:last-of-type .yrise-theme-icon-column,
+	.yrise-theme-icon-column-four.yrise-theme-macro-custom-column   {
+		margin-right: 0px !important;
+	}
+	.yrise-theme-icon-column-link:last-of-type .yrise-theme-icon-column.yrise-theme-macro-custom-column {
+		margin-right: 26.6667px !important;
+	}
+	.yrise-theme-icon-column-link:first-of-type .yrise-theme-icon-column,
+	.yrise-theme-one .yrise-theme-icon-column:first-of-type {
+		margin-left: 0 !important;
+	}
+	.yrise-themes-lg-icon img {
+		width: 235px;
+	}
+	.yrise-theme-fixed-content {
+		padding-bottom: 50px !important;
+		overflow: hidden;
+	}
+
+	/* -- Partners Page -- */ 
+	.yrise-theme-fixed-content.yrise-partners-page {
+		padding: 0 !important;
+	}
+	.yrise-themes-lg-icon.yrise-partners-page.yrise-partners-ea .elementor-widget-container {
+		margin-right: -70px !important;
+	}
+
+	/* -- People Page -- */ 
+	.page-id-1979 .yrise-feat-caption-text {
+		max-width: 710px;
+	}
+	#yrise-network-conveners > .elementor-column-wrap {
+		padding: 30px !important;
+	}
+	#yrise-network-conveners::after { 
+		top: 110px;
+		height: 81%;
+	}
+	.yrise-affiliated-researchers-title-section {
+		margin-top: 60px !important;
+	}
+	.yrise-affiliated-researchers-columns-section {
+		margin-top: 35px !important;
+	}
+	.yrise-affiliated-researchers-columns-section:nth-of-type(2) {
+		margin-top: 0px !important;
+	}
+
+	/* -- People Page - Affiliated Researchers -- */ 
+	.yrise-people-researcher-column {
+		margin-right: 20px;
+		width: 23.2% !important;
+	}
+
+	/* -- Staff Section (Updated) -- */
+	.yrise-research-staff-section {
+		margin: 50px 0 95px !important;
+	}
+	.yrise-research-staff-section > .elementor-container {
+		padding: 30px 20px;
+	}
+	.yrise-research-staff-section .yrise-page-heading .elementor-widget-container {
+		margin-bottom: 25px !important;
+	}
+	.yrise-research-staff-section .yrise-people-researcher-column {
+		width: 23.1% !important;
+	}
+
+	/* -- Program Director - Temporary Code -- */
+	.yrise-staff-section {
+		padding: 10px 30px 30px !important;
+	}
+	.yrise-staff-section::before {
+		height: 50px;	
+	}	
+
+	/* -- Research Page -- */ 
+	.yrise-research-intro-text  .elementor-widget-container {
+		padding: 30px 150px 30px 150px !important;
+	}
+	.yrise-research-theme-name-column {
+		width: 88% !important;
+	}
+	.yrise-policy-briefs-icon .elementor-widget-container {
+		margin: -80px -20px -75px 0px !important;
+	}
+	.yrise-policy-briefs-icon .elementor-widget-container img,
+	.yrise-research-datasets-icon .elementor-widget-container img {
+		height: 140px;
+		width: 140px;
+	}
+	.yrise-parallax-circle-column.yrise-research-output-page img {
+		height: 45px;
+	}
+	.yrise-parallax-circle-column.yrise-research-output-page .elementor-widget-text-editor {
+		font-size: 18px !important;
+		line-height: 1.35 !important;
+	}
+	.yrise-parallax-circle-column.yrise-research-output-page .elementor-widget-text-editor .elementor-widget-container {
+		padding: 0 30px !important;
+	}
+
+	/* -- Projects Page -- */ 
+	.page-id-1617 .yrise-feat-caption-text {
+		max-width: 750px;
+	}
+	.yrise-projects-page-section {
+		width: 810px !important;
+	}
+	.yrise-projects-page-section h2 {
+		font-size: 30px !important;
+	}
+	.yrise-projects-expanded-section .yrise-project-expanded-text .elementor-column-wrap {
+		margin-top: -106px !important;
+	}
+	.yrise-projects-lg-image-text-column .elementor-column-wrap {
+		margin: 30px 0px 0px 30px !important;
+	}
+	.yrise-projects-lg-image-text-column .elementor-widget-text-editor p {
+		font-size: 33px !important;
+	}
+	.yrise-project-media.yrise-publications-and-media{
+		width: 245px;
+	}
+	.yrise-project-publications.yrise-publications-and-media {
+		width: 245px;
+		margin: 0 15px 5px 0;
+	}
+	.yrise-projects-expanded-section.yrise-social-learning-section .elementor-widget-text-editor .elementor-widget-container {
+		margin-top: 65px !important;
+	}
+
+	/* -- Contact Page -- */ 
+	#yrise-subscription-box .elementor-column-wrap,
+	.yrise-contact-us-text-column .elementor-column-wrap,
+	.yrise-contact-us-map-column .elementor-column-wrap {
+		margin: 0 !important;
+	}
+	
+	/* -- Covid-19 -- */
+	.yrise-covid-activities-section {
+		margin: 10px 0 80px 0 !important;
+	}
+	.yrise-covid19-thumbnail {
+		width: 150px;
+		margin-right: 20px;
+	}
+	.yrise-covid19-content {
+		width: calc(100% - 170px);
+	}
+	.yrise-page-heading.yrise-covid-activities,
+	.yrise-page-heading.yrise-covid-activities .elementor-widget-container {
+		margin-bottom: 0px !important;
+	}
+	.yrise-covid-four-activities-section {
+		margin-top: 0 !important;
+	}
+	.yrise-covid-four-activities-section .elementor-row {
+		display: block;
+	}
+	.yrise-covid-four-activities-section .elementor-column {
+		width: calc(50% - 15px) !important;
+		float: left;
+		margin-top: 35px !important;
+	}
+	.yrise-covid-four-activities-section .elementor-column:nth-of-type(even) {
+		margin-right: 0px !important;
+	}
+	.yrise-covid-activities-section .elementor-widget-text-editor .elementor-widget-container,
+	.yrise-covid-activities-section .yrise-activities-three-columns .elementor-widget-text-editor .elementor-widget-container,
+	.yrise-covid-activities-section .yrise-activities-three-columns .elementor-widget-text-editor.elementor-element-94a62b3 .elementor-widget-container {
+		min-height: 135px;
+	}
+	.yrise-covid-four-activities-section.yrise-activities-three-columns .elementor-column:first-of-type, 
+	.yrise-covid-four-activities-section.yrise-activities-three-columns .elementor-column:last-of-type {
+		display: none;
+	}
+	.yrise-covid-four-activities-section.yrise-activities-three-columns .elementor-column:nth-of-type(2n) {
+		margin-right: 30px !important;
+	}
+	.yrise-covid-four-activities-section.yrise-activities-three-columns .elementor-column:nth-of-type(3) {
+		margin-right: 0px !important;
+	}
+
+	/* -- Error Page -- */ 
+	.error404 #yrise-featured-section {
+		height: 105px;
+	}
+}	
+@media only screen and (max-width: 1025px) {
+	.yrise-home-parallax-section.yrise-home-right-float .yrise-parallax-content-section {
+		float: right;
+	}	
+}	
+
+@media only screen and (max-width: 915px) {
+
+	/* -- YRISE Header -- */
+	.yrise-header-container {
+		width: 800px;
+	}
+	.yrise-site-logo {
+		width: 140px;
+	}
+	#yrise-nav-wrapper .menu li a,
+	#yrise-nav-wrapper.yrise-sticky-nav-wrapper .menu li a {
+		font-size: 13px;
+	}
+	#yrise-nav-wrapper.yrise-sticky-nav-wrapper {
+		margin-top: -31px;
+		width: 76%;
+		margin-left: 1%
+	}
+
+	/* -- Featured Images -- */
+	.yrise-parallax-container,
+	.yrise-feat-overlay {
+		height: 400px;
+	}
+	.yrise-feat-caption-text {
+		margin: 65px auto 0;
+		max-width: 595px;
+	}	
+
+	/* -- Global Styles -- */
+	.yrise-container {
+		width: 800px;
+	}
+	.elementor-section.elementor-section-boxed>.elementor-container  {
+		max-width: 800px !important;
+	}
+
+	/* -- Parallax Sections -- */
+	.yrise-home-parallax-section {
+		height: 400px;
+	}	
+	.yrise-home-parallax-section .yrise-parallax-content-section {
+		padding: 42.5px 0 0 42.5px !important;
+	}
+	.yrise-home-parallax-section.yrise-home-right-float .yrise-parallax-content-section {
+		padding: 42.5px 42.5px 0 0 !important;
+	}
+
+	/* -- Home Page -- */
+	.yrise-home-intro-section .elementor-widget-text-editor .elementor-widget-container {
+		padding: 0 50px !important;
+	}	
+	.yrise-five-circle-section  {
+		margin-bottom: 130px !important;
+	}
+	.yrise-five-circle-section > .elementor-container {
+		max-width: 800px !important;
+	}
+	.yrise-five-circle-column {
+		height: 188px;
+		width: 188px !important
+	}
+	.yrise-five-circle-column .yrise-circle-content {
+		height: 188px;
+		max-width: 188px;
+	}
+	.yrise-five-circle-column .elementor-heading-title {
+		font-size: 12px !important;
+	}
+	.yrise-circle-content .elementor-widget-text-editor {
+		font-size: 14.5px !important;
+		line-height: 18px !important
+	}
+	.yrise-no-lean-season-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-microfinance-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-rainfall-section .yrise-home-section-description .elementor-widget-container {
+		font-size: 15px !important;
+		padding: 0 65px !important;
+	}
+	.yrise-three-icons-column {
+		margin-right: 40px;
+	}
+	.yrise-three-icons-column .elementor-widget-image .elementor-widget-container {
+		margin-bottom: 10px !important;
+	}
+	.yrise-three-icons-column img {
+		height: 55px !important;
+	}
+	.yrise-three-icons-section {
+		padding: 7px 45px 0 !important;
+	}
+	.yrise-home-microfinance-section .yrise-three-icons-section {
+		padding: 5px 145px 0 !important;
+	}
+	.yrise-home-icons-section-custom .yrise-three-icons-column {
+		width: 220px !important;
+		margin-right: 25px;
+	}
+	.yrise-home-jobs-column {
+		width: 42.5% !important;
+	}
+	.yrise-home-news-column {
+		width: 57.5% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-image {
+		width: 11% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-heading,
+	.yrise-jobs-news-section .elementor-widget-button {
+		width: 85.9% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-button {
+		left: 47px;
+		top: 11px;
+	}
+	.yrise-jobs-news-section .yrise-home-news-column .elementor-widget-image {
+		width: 8.2% !important;
+	}
+
+	/* -- Themes Page -- */
+	.yrise-theme-icon-column  {
+		margin-right: 6.66px !important;
+	}
+	.yrise-theme-icon-column-link:last-of-type .yrise-theme-icon-column.yrise-theme-macro-custom-column {
+		margin-right: 6.66px !important;
+	}
+	.yrise-themes-lg-icon img {
+		width: 215px;
+	}
+	.yrise-themes-lg-icon.yrise-political-effects .elementor-widget-container {
+		margin: -12px -65px -150px 0px !important;
+	}
+	.yrise-themes-lg-icon.yrise-external-validity .elementor-widget-container {
+		margin: 0px -65px -105px 0px !important;
+	}
+
+	/* -- People Page - Affiliated Researchers -- */ 
+	.yrise-affiliated-researchers-title-section {
+		margin-top: 50px !important;
+	}
+	.yrise-people-researcher-column {
+		margin-right: 30px;
+		width: 48.1% !important;
+	}
+	.yrise-custom-nc-bg-section .yrise-people-researcher-column {
+		width: 48% !important;
+	}
+	.yrise-people-description.yrise-affiliated-researcher {
+		top: 200px;
+	}
+	.yrise-people-description.yrise-affiliated-researcher.yrise-af-policy {
+		top: 65px;
+	}
+	.yrise-people-researcher-column:nth-of-type(2) {
+		margin: 0;
+	}
+	.yrise-people-researcher-column .elementor-widget-heading .elementor-widget-container {
+		padding: 25px 0 0 0 !important;
+	}
+	.yrise-people-researcher-column .yrise-people-researcher-title.elementor-widget-heading .elementor-widget-container {
+		padding: 0 !important;
+	}
+	.yrise-affiliated-researchers-columns-section h5 {
+		font-size: 14px !important;
+	}
+	.yrise-custom-nc-bg-section {
+		padding: 20px 10px !important;
+	}
+	.yrise-custom-nc-bg-section .yrise-people-researcher-column:nth-of-type(2) .elementor-widget-image {
+		margin-bottom: 0px !important;
+	}
+	.yrise-custom-nc-bg-section .yrise-custom-director-column .elementor-widget-text-editor .elementor-widget-container {
+		margin-bottom: 20px !important;
+	}
+
+	/* -- People Page - Staff Section -- */ 
+	.yrise-research-staff-section .yrise-people-researcher-column {
+		width: 47.6% !important;
+	} 
+	.yrise-research-staff-section h5 {
+		font-size: 14px !important;
+	}
+
+	/* -- Projects Page -- */ 
+	.yrise-projects-page-section {
+		width: 750px !important;
+	}
+	.yrise-projects-page-section h2 {
+		font-size: 28px !important;
+	}
+	.yrise-projects-expanded-section .yrise-project-expanded-text .elementor-column-wrap {
+		margin-top: -94px !important;
+	}
+	.yrise-custom-projects-page-section .yrise-projects-expanded-section .yrise-project-expanded-text .elementor-column-wrap {
+		margin-top: -67px !important;
+	}
+	.yrise-projects-expanded-section .yrise-project-expanded-text.yrise-long-title .elementor-column-wrap {
+		margin-top: -64px !important;
+	}
+	.yrise-project-media.yrise-publications-and-media,
+	.yrise-project-publications.yrise-publications-and-media {
+		width: 225px;
+	}
+	.yrise-custom-projecs-button-one {
+		line-height: 1;
+	}
+	.yrise-custom-projecs-button-two .elementor-widget-container {
+		margin: -12px 0px 5px 0px !important;
+	}
+	.yrise-projects-expanded-section.yrise-social-learning-section .elementor-widget-text-editor .elementor-widget-container {
+		margin-top: 35px !important;
+	}
+	/* -- Program Director - Temporary Code -- */
+	.yrise-staff-section::before {
+		height: 52px;	
+	}	
+
+	/* -- Research Page -- */ 
+	.yrise-research-intro-text  .elementor-widget-container {
+		padding: 30px 100px 30px 100px !important;
+	}
+	.yrise-policy-briefs-icon .elementor-widget-container {
+		margin: -85px -15px -75px 0px !important;
+	}
+	
+	/* -- Covid-19 Page -- */
+	.yrise-ongoing-activities-icon-column {
+		width: 12.5% !important;
+	}
+	.yrise-ongoing-activities-text-column {
+		width: 87.5% !important;
+	}
+	.yrise-covid-activities-subtitle strong {
+		font-size: 19px !important;
+	}
+
+	/* -- Contact Page -- */
+	.mc4wp-form input {
+		margin: 0 25px 20px 0;
+	}
+
+	/* -- Footer -- */
+	#yrise-footer-photo-credit {
+		display: none;
+	}
+	#yrise-footer-photo-credit-mobile {
+		display: block;
+	}
+	.yrise-footer-column-one {
+		width: 75%;
+	}
+	.yrise-footer-column-two {
+		width: 25%;
+	}
+	#yrise-footer-copyright {
+		padding: 2px 0 0 0;
+	}
+	#yrise-subscription-cta p {
+		margin: 8px 0 0 0;
+		padding: 0;
+	}
+	#yrise-subscription-cta p a {
+		text-transform: uppercase;
+		width: 80px;
+		text-align: left;
+		padding: 10px;
+		line-height: 1.3;
+		display: block;
+	}
+	.yale-twitter {
+		padding: 1px 0 0 0;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+
+	/* -- YRISE Header -- */
+	#yrise-nav-wrapper,
+	.yrise-header-container,
+	#yrise-sticky-header-container-sticky-wrapper {
+		display:none !important;
+	}
+	.slicknav_menu,
+	.yrise-site-mobile-logo,
+	#yrise-nav-wrapper .menu li:first-of-type {
+		display: block;
+	}
+	.yrise-site-mobile-logo {
+		width: auto;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	/* -- Featured Images -- */
+	.yrise-parallax-container, 
+	.yrise-feat-overlay {
+		height: 375px;
+	}
+	.yrise-feat-caption-text,
+	.page-template-page-themes .yrise-feat-caption-text {
+		max-width: 450px;
+		margin: 0 auto;
+	}
+	
+	/* -- Global Styles -- */
+	.yrise-container {
+		width: 700px;
+	}
+	.elementor-section.elementor-section-boxed>.elementor-container  {
+		max-width: 700px !important;
+	}	
+
+	/* -- Home Page -- */
+	.yrise-home-intro-section .elementor-widget-text-editor .elementor-widget-container {
+		padding: 0 !important;
+		font-size: 16px !important;
+		line-height: 23px !important;
+	}	
+	.yrise-five-circle-section  {
+		margin-bottom: 125px !important;
+	}
+	.yrise-five-circle-section > .elementor-container {
+		max-width: 630px !important;
+		margin:0 auto;
+	}
+	.yrise-five-circle-column {
+		height: 230px;
+		width: 230px !important
+	}
+	.yrise-five-circle-column .yrise-circle-content {
+		height: 230px;
+		max-width: 230px;
+	}
+	.yrise-five-circle-column .elementor-heading-title {
+		font-size: 14.5px !important;
+		padding: 0 4px 5px !important
+	}
+	.yrise-circle-content .elementor-widget-text-editor {
+		font-size: 15.5px !important;
+		line-height: 19px !important
+	}
+	.elementor-row > .yrise-five-circle-link:first-of-type {
+		margin: 0px -70px -30px 40px;
+	}
+	.elementor-row > .yrise-five-circle-link:nth-of-type(2) {
+		margin: 90px -40px -90px 40px;
+	}
+	.elementor-row > .yrise-five-circle-link:last-of-type {
+		margin: -15px 0px -90px 70px;
+	}
+	.elementor-row > .yrise-five-circle-column:first-of-type {
+		position: absolute;
+		bottom: -90px;
+		right: 50px;
+		margin: 0;
+	}
+	.elementor-row > .yrise-five-circle-link:first-of-type .elementor-widget-heading .elementor-widget-container {
+		padding: 0 5px 5px !important;
+	}
+	.yrise-no-lean-season-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-microfinance-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-rainfall-section .yrise-home-section-description .elementor-widget-container {
+		padding: 0 30px !important;
+	}
+	.yrise-three-icons-section {
+		padding: 7px 0 0 !important;
+	}
+	.yrise-three-icons-column {
+		margin-right: 28px;
+	}
+	.yrise-home-icons-section-custom .yrise-three-icons-column {
+		width: 217px !important;
+		margin-right: 24px;
+	}
+	.yrise-home-microfinance-section .yrise-three-icons-section {
+		padding: 5px 110px 0 !important;
+	}
+	.yrise-jobs-news-section .elementor-row {
+		width: 650px !important;
+	}
+	.yrise-home-jobs-column {
+		width: 100% !important;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #000;
+	}
+	.yrise-home-news-column {
+		width: 100% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-image,
+	.yrise-jobs-news-section .yrise-home-news-column .elementor-widget-image {
+		width: 6.5% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-button {
+		left: 52px;
+		top: 14px;
+	}
+	.yrise-jobs-news-section .elementor-widget-button.yrise-home-second-button {
+		left: 242px;
+	}
+
+	/* -- People Page - Affiliated Researchers -- */ 
+	.yrise-people-researcher-column {
+		width: 47.8% !important;
+	}
+	.yrise-custom-nc-bg-section .yrise-people-researcher-column {
+		width: 47.7% !important;
+	}
+	.yrise-people-researcher-column .yrise-people-researcher-title.elementor-widget-heading h5 {
+		font-size: 12.5px !important;
+	}	
+	.yrise-people-researcher-column .elementor-widget-heading .elementor-widget-container {
+		padding: 17px 0 0 0 !important;
+	}
+	.yrise-people-description.yrise-affiliated-researcher {
+		top: 175px;
+	}
+
+	/* -- Themes Page -- */
+	.yrise-theme-icon-column {
+		height: 175px;
+		width: 175px !important;
+		margin-right: 0 !important;
+	}
+	.yrise-theme-icon-column .elementor-widget-heading .elementor-widget-container {
+		height: 175px;
+		width: 175px;
+	}
+	.yrise-theme-icon-column img {
+		height: 37px !important;
+	}
+	.yrise-theme-icon-column-link:last-of-type .yrise-theme-icon-column.yrise-theme-macro-custom-column {
+		margin-right: 0px !important;
+	}
+	.yrise-theme-icon-column .elementor-widget-heading .elementor-heading-title {
+		font-size: 11.5px !important;
+		padding: 0 15px;
+		top: 67px;
+		line-height: 1.2 !important;
+	}
+	.yrise-themes-lg-icon img {
+		width: 185px;
+	}
+	.yrise-themes-lg-icon.yrise-political-effects .elementor-widget-container {
+		margin: 0 -65px -150px 0px !important;
+	}
+
+	/* -- Research Page -- */ 
+	.yrise-research-intro-text  .elementor-widget-container {
+		padding: 30px 65px 30px 65px !important;
+	}
+	.yrise-pb-section-one {
+		margin-bottom: 20px !important;
+	}
+	#yrise-pb-one-image-section,
+	#yrise-pb-one-text-section {
+		width: 100% !important;
+	}
+	#yrise-pb-one-image-section .elementor-column-wrap {
+		padding: 20px 20px 20px 20px !important;
+	}
+	#yrise-pb-one-text-section .elementor-column-wrap {
+		padding: 0px 20px 20px 20px !important;
+	}	
+	.yrise-policy-briefs-icon .elementor-widget-container {
+		margin: -55px -15px -75px 0px !important;
+	}
+	.yrise-research-datasets-icon .elementor-widget-container {
+		margin: -10px -20px -125px 0px !important;
+	}
+	.yrise-parallax-circle-column.yrise-research-output-page img {
+		height: 41px;
+	}
+	.yrise-parallax-circle-column.yrise-research-output-page .elementor-widget-text-editor {
+		font-size: 17px !important;
+		line-height: 1.35 !important;
+	}
+
+	/* -- Partners Page -- */ 
+	.yrise-theme-fixed-content.yrise-partners-page {
+		margin: 40px 0 55px !important;
+	}
+	#yrise-jpal-logo img {
+		width: 375px;
+	}
+	
+	/* -- COVID-19 Page -- */
+	.yrise-theme-fixed-content.yrise-partners-page.yrise-covid-page {
+		margin: 40px 0 0 !important;
+	}
+	.yrise-theme-fixed-content.yrise-partners-page.yrise-covid-activities-section {
+		margin: 0 0 65px 0 !important;
+	}
+	.yrise-theme-fixed-content.yrise-partners-page.yrise-covid-partners-section {
+		margin: 0 0 75px 0 !important;
+	}
+	.yrise-covid-policies-section {
+		margin-bottom: 55px !important;
+	}
+	.yrise-covid19-thumbnail {
+		width: 130px; 
+	}	
+	.yrise-covid19-content {
+		width: calc(100% - 150px);
+	}
+	.yrise-covid19-list-item h2 {
+		font-size: 23px;
+	}
+	.yrise-covid-activities-section .elementor-widget-text-editor .elementor-widget-container,
+	.yrise-covid-activities-section .yrise-activities-three-columns .elementor-widget-text-editor .elementor-widget-container,
+	.yrise-covid-activities-section .yrise-activities-three-columns .elementor-widget-text-editor.elementor-element-94a62b3 .elementor-widget-container {
+		min-height: 150px;
+	}
+	.yrise-covid-partners-logo-section .yrise-partner-small-column,
+	.yrise-covid-partners-logo-section .yrise-partner-large-column {
+		width: 50% !important;
+	}
+	.yrise-covid-partners-logo-section .elementor-row .elementor-column:nth-of-type(1),
+	.yrise-covid-partners-logo-section .elementor-row .elementor-column:nth-of-type(2) {
+		margin-bottom: 45px !important;
+	}
+	.yrise-logos-ypf-logo.elementor-widget-image .elementor-widget-container {
+		margin: 0 !important;
+	}
+	.single-yrise-covid19-docs .yrise-parallax-container, 
+	.single-yrise-covid19-docs .yrise-feat-overlay {
+		height: 0px;
+	}
+	.single-yrise-covid19-docs .yrise-covid19-list-item:first-of-type {
+		padding-top: 50px;
+	}
+	.single-yrise-covid19-docs .slicknav_menu {
+		border-bottom: 1px solid #00356b;
+	}
+
+	/* -- Projects Page -- */
+	.yrise-projects-page-section {
+		width: 100% !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.yrise-projects-page-section:nth-of-type(4),
+	.yrise-projects-page-section:nth-of-type(6),
+	.yrise-projects-page-section:nth-of-type(9)  {
+		width: 650px !important;
+		padding: 25px !important;
+	}
+	.yrise-projects-page-section .elementor-col-50 {
+		width: 100% !important;
+	}
+	.yrise-projects-page-section .elementor-col-50:last-of-type .elementor-column-wrap {
+		margin: 0 !important;
+	}
+	.yrise-projects-default-section .elementor-col-100 .elementor-column-wrap {
+		margin: 0 !important;
+	}
+	.yrise-projects-page-mobile-photo {
+		display: block;
+	}
+	.yrise-projects-page-desktop-photo {
+		display: none;
+	}
+	.yrise-projects-page-section .elementor-image {
+		margin: 0 0 18px 0;
+	}
+	.yrise-project-media.yrise-publications-and-media,
+	.yrise-project-publications.yrise-publications-and-media {
+		width: 48%;
+	}
+	.yrise-projects-page-section:nth-of-type(4) .yrise-projects-expanded-section .yrise-project-expanded-text .elementor-column-wrap,
+	.yrise-projects-page-section:nth-of-type(6) .yrise-projects-expanded-section .yrise-project-expanded-text .elementor-column-wrap,
+	.yrise-projects-page-section:nth-of-type(9) .yrise-projects-expanded-section .yrise-project-expanded-text .elementor-column-wrap,
+	.yrise-projects-default-section .elementor-col-50:first-of-type .elementor-column-wrap {
+		margin: 0px !important;
+	}
+	.yrise-projects-lg-image-text-column {
+		width: 40% !important;
+	}
+	.yrise-projects-lg-image-text-column .elementor-widget-text-editor p {
+		font-size: 31px !important;
+		line-height: 1.3;
+	}
+	.yrise-projects-overlay-list li {
+		font-size: 15px !important;
+	}
+	.yrise-projects-expanded-section.yrise-social-learning-section .elementor-widget-text-editor .elementor-widget-container {
+		margin-top: 10px !important;
+	}
+
+	/* -- Contact Page -- */
+	.mc4wp-form input {
+		margin: 0 20px 20px 0;
+		width: 43%;
+	}
+	.yrise-contact-us-map-column iframe {
+		height: 300px !important;
+	}
+
+	/* -- Error Page -- */ 
+	.error404 #yrise-featured-section {
+		background: #FFFFFF;
+		height: 0;
+		border-top: 1px solid #00356b;
+	}
+	.yrise-error-page {
+		padding: 50px 0 80px;
+	}
+}	
+
+
+@media only screen and (max-width: 767px) {
+
+	/* -- Featured Images -- */
+	.yrise-parallax-container, 
+	.yrise-feat-overlay {
+		height: 350px;
+	}
+	.yrise-feat-image .yrise-feat-caption h4 {
+		font-size: 30px;
+	}
+	.page-id-2298 .yrise-feat-caption-text,
+	.parent-pageid-2298 .yrise-feat-caption-text {
+		max-width: 500px;
+	}
+	
+	/* -- Global Styles -- */
+	.yrise-container {
+		width: 500px;
+	}
+	.elementor-section.elementor-section-boxed>.elementor-container  {
+		max-width: 500px !important;
+	}
+	.yrise-page-heading .elementor-heading-title {
+		font-size: 30px !important;
+		line-height: 1.2 !important;
+	}
+
+	/* -- Parallax Sections -- */
+	.yrise-home-parallax-section {
+		height: 375px;
+	}	
+	.yrise-home-parallax-section .yrise-parallax-content-section {
+		padding: 50px 0 0 20px !important;
+	}
+	.yrise-home-parallax-section.yrise-home-right-float .yrise-parallax-content-section {
+		padding: 50px 20px 0 0 !important;
+	}
+	.yrise-parallax-circle-column {
+		height: 275px !important;
+		width: 275px !important;
+	}
+	.yrise-parallax-circle-column .elementor-column-wrap {
+		width: 275px;
+	}	
+	.yrise-parallax-circle-column .elementor-widget-wrap {
+		max-width: 275px;
+	}
+	.yrise-parallax-heading .elementor-heading-title {
+		font-size: 18px !important;
+		line-height: 23px !important;
+	}
+	.yrise-parallax-heading .elementor-widget-container {
+		margin-bottom: 9px !important;
+		padding: 0 50px !important;
+	}
+	.yrise-home-parallax-section .elementor-icon-list-item {
+		font-size: 14px !important;
+		line-height: 22px !important;
+		margin: 0 0 3px 0 !important;
+	}
+	.yrise-home-parallax-section:last-of-type .elementor-widget-icon-list .elementor-widget-container {
+		padding: 0 40px !important;
+	}
+	.yrise-parallax-circle-column.yrise-parallax-two .elementor-widget-icon-list .elementor-widget-container {
+		padding: 0 30px !important;
+	}
+	.yrise-home-parallax-section:last-of-type .elementor-widget-icon-list .elementor-widget-container {
+		padding: 0 37px !important;
+	}
+	.yrise-parallax-heading:after {
+		width: 100px;
+	}	
+	.yrise-parallax-two .yrise-parallax-heading:after {
+		width: 145px;
+	}
+	.yrise-parallax-three .yrise-parallax-heading:after {
+		width: 169px;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:nth-of-type(2) {
+		width: 257px;
+		margin: 0 auto !important;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:nth-of-type(3) {
+		width: 215px;
+		margin: 0 auto !important;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:last-of-type {
+		width: 196px;
+		margin: 0 auto !important;
+	}
+	.yrise-feat-image:after {
+		right: 0;
+		left: 0;
+		margin: auto;
+		text-align: center;
+		font-size: 10px;
+	}
+
+	/* -- Home Page -- */ 
+	.yrise-home-arrow-section {
+		margin-bottom: 30px !important;
+	}
+	.yrise-no-lean-season-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-microfinance-section .yrise-home-section-description .elementor-widget-container,
+	.yrise-home-rainfall-section .yrise-home-section-description .elementor-widget-container {
+		padding: 0 !important;
+	}
+	.yrise-home-section-description br {
+		display: none;
+	}
+	.yrise-three-icons-section {
+		padding: 7px 0 0 !important;
+	}
+	.yrise-three-icons-column {
+		width: 100% !important;
+		margin-right: 0;
+		padding: 0 50px;
+	}
+	.yrise-three-icons-column br {
+		display: none;
+	}
+	.yrise-home-icons-section-custom .yrise-three-icons-column {
+		width: 100% !important;
+		margin-right: 0;
+	}
+	.yrise-home-microfinance-section .yrise-three-icons-section {
+		padding: 0 !important;
+	}
+	.yrise-five-circle-section  {
+		margin-bottom: 175px !important;
+	}
+	.yrise-five-circles-heading .elementor-widget-container {
+		padding: 0 0 25px 0 !important;
+	}
+	.elementor-row > .yrise-five-circle-link:first-of-type {
+		margin: 0px -60px -30px 40px;
+	}
+	.elementor-row > .yrise-five-circle-link:nth-of-type(2) {
+		margin: 125px -70px -30px 0px;
+	}
+	.elementor-row > .yrise-five-circle-link:nth-of-type(3) {
+		margin: -70px -50px 0 40px;
+	}
+	.elementor-row > .yrise-five-circle-link:last-of-type {
+		margin: 50px 0 0px -10px;
+	}
+	.elementor-row > .yrise-five-circle-column:first-of-type {
+		position: absolute;
+		bottom: -135px;
+		right: auto;
+		left: 40px;
+		margin: 0;
+	}
+	.yrise-five-circles-heading .yrise-page-heading {
+		margin-bottom: 20px !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-image,
+	.yrise-jobs-news-section .yrise-home-news-column .elementor-widget-image {
+		width: 8.9% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-button {
+		left: 53px;
+	}	
+
+	/* -- Themes Page -- */
+	.yrise-theme-icon-column {
+		height: 240px;
+		width: 240px !important;
+		margin: 0 20px 20px 0 !important;
+	}
+	.yrise-theme-icon-column.yrise-theme-icon-column-two,
+	.yrise-theme-icon-column.yrise-theme-icon-column-four {
+		margin-right: 0px !important;
+	}
+	.yrise-theme-icon-column-link:last-of-type .yrise-theme-icon-column.yrise-theme-macro-custom-column {
+		margin-right: 20px !important;
+	}	
+	.yrise-theme-fixed-content {
+		margin: -20px 0 0 0 !important;
+	}
+	.yrise-theme-icon-column .elementor-widget-heading .elementor-widget-container {
+		height: 240px;
+		width: 240px;
+	}
+	.yrise-theme-icon-image {
+		top: 26px;
+	}
+	.yrise-theme-icon-column img {
+		height: 60px !important;
+	}
+	.yrise-theme-icon-column .elementor-widget-heading .elementor-heading-title {
+		font-size: 14px !important;
+		padding: 0 35px;
+		top: 100px;
+		line-height: 1.35 !important;
+	}
+	.yrise-theme-icon-column.yrise-theme-three .elementor-widget-heading .elementor-heading-title {
+		padding: 0 20px;
+	}
+	.yrise-themes-lg-icon img {
+		width: 150px;
+		position: absolute;
+		right: -15px;
+		top: -60px;
+	}
+	.yrise-themes-lg-icon.yrise-political-effects .elementor-widget-container,
+	.yrise-themes-lg-icon.yrise-external-validity .elementor-widget-container,
+	.yrise-themes-lg-icon.yrise-spillovers .elementor-widget-container,
+	.yrise-themes-lg-icon.yrise-themes-macro .elementor-widget-container {
+		margin: 0 !important;
+	}
+	
+	/* -- Partners Page -- */
+	.yrise-theme-fixed-content.yrise-partners-page {
+		margin: 32px 0 40px !important;
+	}
+	.yrise-partners-page.yrise-themes-lg-icon .elementor-widget-container {
+		margin: 7px 0 0 0 !important;
+	}
+	.yrise-partners-page.yrise-themes-lg-icon img {
+		right: 0px;
+	}
+	.yrise-themes-lg-icon.yrise-partners-page.yrise-ipab img {
+		right: -10px;
+		top: -45px;
+	}
+	.yrise-partners-page-text-section .elementor-widget-container {
+		padding: 0 !important;
+	}
+
+	/* -- People Page -- */ 
+	.page-id-1979 .yrise-feat-caption-text {
+		max-width: 470px;
+	}
+	.yrise-affiliated-researchers-title-section {
+		margin-top: 35px !important;
+	}
+	.yrise-people-mobile-theme-title {
+		display: block;
+	}
+	.yrise-people-desktop-theme-title {
+		display: none;
+	}
+	.yrise-custom-nc-bg-section {
+		padding: 25px 10px !important;
+	}
+	.yrise-custom-nc-bg-section .yrise-custom-director-column .elementor-widget-text-editor .elementor-widget-container {
+		margin-bottom: 0px !important;
+	}
+
+	/* -- Popup Window -- */
+	.yrise-people-description {
+		padding: 25px !important;
+		width: 400px !important;
+		bottom: auto;
+	}
+	.yrise-people-description .elementor-col-50:first-of-type {
+		width: 50%;
+	}
+	.yrise-people-description .elementor-col-50:last-of-type {
+		width: 46%;
+		margin-left: 15px;
+	}
+	.yrise-people-description h6 {
+		font-size: 16px !important;
+	}
+	.yrise-people-description-university .elementor-widget-container {
+		padding: 6px 0 0 5px !important;
+	}	
+
+	/* -- People Page - Affiliated Researchers -- */ 
+	.yrise-people-researcher-column {
+		width: 46.8% !important;
+		margin-right: 25px;
+	}
+	.yrise-custom-nc-bg-section .yrise-people-researcher-column {
+		width: 46.7% !important;
+	}
+	.yrise-people-researcher-column .elementor-widget-image {
+		margin-bottom: 25px !important;
+	}
+	.yrise-people-researcher-column:first-of-type {
+		margin: 0 25px 0 0;
+	}	
+	.yrise-people-researcher-column .yrise-people-researcher-title.elementor-widget-heading h5 {
+		font-size: 14px !important;
+	}	
+	.yrise-people-researcher-column .elementor-widget-heading .elementor-widget-container {
+		padding: 0 !important;
+	}
+	.yrise-people-researcher-column .yrise-people-researcher-title.yrise-af-one .elementor-widget-container {
+		padding: 0 10px 0 0 !important;
+	}
+	.yrise-people-description.yrise-affiliated-researcher {
+		width: 300px !important;
+		top: 100px;
+	}
+	.yrise-people-description.yrise-affiliated-researcher .elementor-col-50:first-of-type {
+		width: 35%;
+	}
+	.yrise-affiliated-researcher .yrise-conveners-expanded-text,
+	.yrise-people-description.yrise-affiliated-researcher .elementor-widget-icon {
+		margin-right: -185%;
+	}
+	.yrise-people-description .elementor-icon {
+		font-size: 20px !important;
+	}
+	.yrise-affiliated-researcher .yrise-conveners-info-column {
+		height: 97px;
+		margin: 4px 0 0 0 !important;
+		width: 55% !important;
+	}
+	.yrise-people-description.yrise-affiliated-researcher h6 {
+		font-size: 15px !important;
+		line-height: 1.3 !important;
+	}
+	#yrise-af-ahmed-mushfiq-mobarak .yrise-conveners-expanded-text {
+		margin-top: 45px !important;
+	}
+	#yrise-af-ahmed-mushfiq-mobarak .elementor-widget-heading:after {
+		width: 85px;
+	}
+	#yrise-af-lauren-falcao-bergquist .elementor-widget-heading:after {
+		width: 90px;
+	}
+	.yrise-custom-muralidharan-margin .elementor-widget-container,
+	.yrise-custom-robinson-margin .elementor-widget-container {
+		margin-bottom: 25px !important;
+	}
+
+	/* -- People Page - Staff Section -- */ 
+	.yrise-research-staff-section {
+		margin: 45px 0 85px !important;
+	}
+	.yrise-research-staff-section > .elementor-container {
+		padding: 25px 20px;
+	}
+	.yrise-research-staff-section .yrise-page-heading .elementor-widget-container {
+		margin-bottom: 20px !important;
+	}
+	.yrise-research-staff-section .yrise-people-researcher-column {
+		width: 47.2% !important;
+	}
+
+	/* -- Program Director - Temporary Code -- */
+	.yrise-staff-section {
+		padding: 10px 30px 30px !important;
+	}
+	.yrise-staff-section::before {
+		height: 53px;	
+	}	
+
+	/* -- Research Page -- */ 
+	.yrise-research-intro-text  .elementor-widget-container {
+		padding: 20px 0 30px 0 !important;
+	}
+	.yrise-mobile-tap-text {
+		display: block;
+	}
+	#yrise-network-conveners .yrise-mobile-tap-text {
+		margin-bottom: 0px !important;
+	}
+	.yrise-research-icon-column-section {
+		width: 500px;
+		margin: 50px auto 45px !important;
+	}
+	.yrise-research-icon-column {
+		height: 110px;
+		width: 110px !important;
+		margin-right: 20px;
+	}
+	.yrise-datasets-page .yrise-research-icon-column-link:last-of-type .yrise-research-icon-column {
+		margin-right: 20px;
+	}
+	.yrise-research-icon-column .elementor-widget-image .elementor-widget-container {
+		margin-top: 13px !important;
+	}
+	.yrise-research-icon-column.yrise-research-icon-two .elementor-widget-image .elementor-widget-container {
+		margin: 15px 0 8px !important;
+	}
+	.yrise-research-icon-column.yrise-research-icon-four .elementor-widget-image .elementor-widget-container {
+		margin: 22px 0 7px !important;
+	}
+	.yrise-research-icon-column img {
+		width: 42px;
+	}	
+	.yrise-research-icon-column.yrise-research-icon-three img {
+		width: 45px;
+	}
+	.yrise-research-icon-column.yrise-research-icon-four img {
+		width: 49px;
+	}
+	.yrise-research-icon-column .elementor-heading-title {
+		font-size: 11.5px !important;
+	}
+	.yrise-fixed-research-section {
+		width: 500px;
+	}
+	.yrise-research-theme-name-column {
+		width: 85% !important;
+	}
+	.yrise-pb-half-column .elementor-column-wrap {
+		margin: 0 0 20px 0 !important;
+	}
+	.yrise-pb-half-column:last-of-type .elementor-column-wrap {
+		margin: 0px !important;
+	}
+	.yrise-policy-briefs-icon .elementor-widget-container {
+		margin: -95px -10px -75px 0px !important;
+	}
+	.yrise-research-datasets-icon .elementor-widget-container {
+		margin: -105px -5px -125px 0px !important;
+	}
+	.yrise-datasets-square {
+		margin: 0 0 12px 0 !important;
+		height: auto;
+		width: 100%;
+		padding: 30px !important;
+	}
+	.yrise-datasets-square > .elementor-container {
+		max-width: 100% !important;
+	}
+	.yrise-datasets-square-section .elementor-col-50:last-of-type .yrise-datasets-square {
+		margin: 0 0 12px 0 !important;
+	}
+	.yrise-datasets:last-of-type {
+		margin-bottom: 50px !important;
+	}
+	#yrise-policy-briefs-section.yrise-page-heading .elementor-widget-container {
+		margin-bottom: 10px !important;
+	}
+
+	/* -- Partners Page -- */
+	#yrise-jpal-logo img {
+		width: 300px;
+	}
+
+	/* -- Projects Page -- */
+	.page-id-1617 .yrise-feat-caption-text {
+		max-width: 500px;
+	}
+	.yrise-projects-page-section:nth-of-type(4),
+	.yrise-projects-page-section:nth-of-type(6),
+	.yrise-projects-page-section:nth-of-type(9)  {
+		width: 450px !important;
+	}
+	.yrise-projects-lg-image-text-column {
+		width: 43% !important;
+	}
+	.yrise-projects-static-image > .elementor-container {
+		height: 100%;
+	}
+	.yrise-projects-lg-image-text-column {
+		width: 55% !important;
+		position: absolute !important;
+		bottom: 25px;
+		left: 25px;
+	}
+	.yrise-projects-lg-image-text-column .elementor-column-wrap {
+		margin: 0 !important;
+	}
+	.yrise-projects-lg-image-text-column .elementor-widget-text-editor p {
+		font-size: 29px !important;
+		line-height: 1.25;
+	}
+	
+	/* -- COVID-19 Page -- */
+	.yrise-ongoing-activities-icon-column {
+		width: 0 !important;	
+		display: none !important;
+	}
+	.yrise-ongoing-activities-text-column {
+		width: 100% !important;
+	}
+	.yrise-ongoing-activities-text-column .elementor-column-wrap {
+		margin: 0 !important;
+	}
+	.yrise-covid-activities-subtitle strong {
+		font-size: 18px !important;
+	}
+	.yrise-covid-policies-section .elementor-widget-icon-list .elementor-widget-container {
+		margin-bottom: 30px !important;
+	}
+	.yrise-covid-policies-section .elementor-widget-icon-list:last-of-type .elementor-widget-container {
+		margin-bottom: 0px !important;
+	}
+	.yrise-theme-fixed-content.yrise-partners-page.yrise-covid-partners-section {
+		margin: 0 0 40px 0 !important;
+	}
+	.yrise-covid-four-activities-section .elementor-column  {
+		width: 100% !important;
+		float: none;
+		margin: 0 0 30px 0 !important;
+	}
+	.yrise-covid-four-activities-section .elementor-column:first-of-type {
+		margin-top: 30px !important;
+	}
+	.yrise-covid-four-activities-section.yrise-activities-three-columns .elementor-column:first-of-type,
+	.yrise-covid-four-activities-section.yrise-activities-three-columns .elementor-column:nth-of-type(2n) {
+		margin: 0 0 30px 0 !important;
+	}
+	.yrise-covid-four-activities-section.yrise-activities-three-columns .elementor-column:nth-of-type(4) {
+		margin: 0 !important;
+	}
+	.yrise-covid-activities-section .elementor-widget-text-editor .elementor-widget-container,
+	.yrise-covid-activities-section .yrise-activities-three-columns .elementor-widget-text-editor .elementor-widget-container,
+	.yrise-covid-activities-section .yrise-activities-three-columns .elementor-widget-text-editor.elementor-element-94a62b3 .elementor-widget-container {
+		min-height: auto;
+		padding: 10px 15px 30px 15px !important;
+	}
+
+	/* -- Contact Page -- */
+	#yrise-subscription-box .elementor-column-wrap {
+		padding: 30px !important;
+	}
+	.mc4wp-form input,
+	.mc4wp-form select {
+		width: 93%;
+		margin: 0 0 20px 0;
+	}
+	.mc4wp-form select {
+		width: 100%;
+	}	
+	.mc4wp-form input[type="email"] {
+		margin-top: -12px;
+	}
+	.yrise-contact-us-text-column {
+		margin: 0 0 30px 0;
+	}
+
+	/* -- Footer -- */ 
+	#yrise-subscription-cta p  {
+		margin: 21px 0 0 0;
+	}
+	#yrise-subscription-cta p a {
+		text-transform: uppercase;
+		width: 63px;
+		padding: 19px 10px;
+	}
+
+}	
+
+@media only screen and (max-width: 550px) {
+
+	body {
+		font-size: 17px;
+		line-height: 23px;
+	}
+
+	/* -- Header -- */
+	.yrise-site-mobile-logo {
+		padding: 15px;
+	}
+	.yrise-site-mobile-logo img {
+		height: 60px;
+	}
+
+	/* -- Featured Images -- */
+	.yrise-parallax-container, 
+	.yrise-feat-overlay {
+		height: 320px;
+	}
+	.yrise-feat-caption-text,
+	.page-template-page-themes .yrise-feat-caption-text {
+		max-width: 308px;
+		margin: 0 auto;
+	}
+	.page-id-773 .yrise-feat-caption-text {
+		max-width: 260px;
+	}
+	.yrise-feat-image .yrise-feat-caption h4 {
+		font-size: 25px;
+		line-height: 1.5;
+		font-family: 'MalloryBook';
+	}
+	.page-id-2298 .yrise-feat-caption-text,
+	.parent-pageid-2298 .yrise-feat-caption-text {
+		max-width: 325px;
+	}
+
+	/* -- Global Styles -- */
+	.yrise-container {
+		width: 315px;
+	}
+	.elementor-section.elementor-section-boxed>.elementor-container  {
+		max-width: 315px !important;
+	}
+	.yrise-page-heading .elementor-heading-title {
+		font-size: 27px !important;
+	}
+
+	/* -- Parallax Sections -- */
+	.yrise-home-parallax-section > .elementor-container {
+		position: absolute !important;
+		bottom: -40px;
+		left: -39px;
+	}
+	.yrise-home-right-float.yrise-home-parallax-section > .elementor-container {
+		left: auto;
+		right: -60px;
+	}
+	.yrise-parallax-circle-column.yrise-research-output-page .elementor-widget-text-editor {
+		font-size: 16px !important;
+		line-height: 1.45 !important;
+	}
+
+	/* -- Home Page -- */
+	.page-id-1929 .elementor-inner {
+		overflow: hidden;
+	}
+	.yrise-five-circle-section > .elementor-container {
+		max-width: 370px !important;
+		margin:0 auto;
+	}
+	.yrise-five-circle-column {
+		height: 181px;
+		width: 181px !important
+	}
+	.yrise-five-circle-column .yrise-circle-content {
+		height: 181px;
+		max-width: 181px;
+	}
+	.yrise-mobile-theme-arrow {
+		display: block;
+	}
+	.elementor-row > .yrise-five-circle-link:first-of-type {
+		margin: 0;
+	}
+	.elementor-row > .yrise-five-circle-link:nth-of-type(2) {
+		margin: 100px -0 0 -50px;
+	}
+	.elementor-row > .yrise-five-circle-link:nth-of-type(3) {
+		margin: -80px 0 0 0;
+	}
+	.elementor-row > .yrise-five-circle-link:last-of-type {
+		margin: 20px 0 0px -50px;
+	}
+	.elementor-row > .yrise-five-circle-column:first-of-type {
+		bottom: -101px;
+		right: auto;
+		left: 0;
+	}
+	.yrise-circle-content {
+		padding: 0 15px !important;
+	}
+	.elementor-row > .yrise-five-circle-column:first-of-type .yrise-circle-content {
+		padding: 0 11.5px !important;
+	}	
+	.elementor-row > .yrise-five-circle-column:first-of-type .elementor-image {
+		line-height: 1;
+	}
+	.yrise-five-circle-column .elementor-heading-title {
+		font-size: 14px !important;
+		padding: 0 4px 5px !important
+	}
+	.yrise-circle-content .elementor-widget-text-editor {
+		display: none;
+	}
+	.yrise-five-circle-section  {
+		margin-bottom: 140px !important;
+	}
+	.yrise-home-fixed-content-section.yrise-home-microfinance-section {
+		padding: 25px !important;
+		margin: 0 25px !important;
+	}
+	.yrise-home-fixed-parallax-section {
+		margin: 0 25px !important;
+	}
+	.yrise-home-parallax-one,
+	.yrise-home-parallax-section.yrise-parallax-three {
+		margin: 0 0 70px 0 !important;
+	}
+	.yrise-home-right-float.yrise-home-parallax-section {
+		margin: 0 25px 70px 25px !important;
+	}
+	.yrise-home-parallax-section.yrise-parallax-three {
+		background-position: right;
+	}
+	.yrise-home-parallax-section .elementor-icon-list-item {
+		font-size: 13px !important;
+		line-height: 20px !important;
+	}
+	.yrise-parallax-heading .elementor-heading-title {
+		font-size: 17px !important;
+		line-height: 23px !important;
+	}
+	.yrise-home-parallax-one .yrise-parallax-heading .elementor-widget-container {
+		margin-bottom: 9px !important;
+		padding: 0 20px !important;
+	}
+	.yrise-parallax-one .yrise-parallax-heading:after {
+		width: 219px;
+	}	
+	.yrise-parallax-one .elementor-icon-list-item:nth-of-type(2) {
+		width: 177px;
+		margin: 0 auto !important;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:nth-of-type(3) {
+		width: 200px;
+		margin: 0 auto !important;
+	}
+	.yrise-parallax-one .elementor-icon-list-item:last-of-type {
+		width: 182px;
+		margin: 0 auto !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-image,
+	.yrise-jobs-news-section .yrise-home-news-column .elementor-widget-image {
+		width: 0 !important;
+		margin: 0 !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-heading {
+		text-align: center !important;
+		width: 100% !important;
+	}
+	.yrise-jobs-news-section .elementor-widget-button {
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 100% !important;
+		text-align: center;
+	}	
+	.yrise-home-news-column {
+		padding-bottom: 23px;
+	}
+	.yrise-jobs-news-section .elementor-widget-button.yrise-home-second-button:before {
+		display: none;
+	}
+	.yrise-jobs-news-section .elementor-widget-button.yrise-home-second-button {
+		left: 0;
+		top: 33px;
+	}
+
+	/* -- Themes Page -- */
+	.yrise-research-icon-section {
+		margin-bottom: 32px !important;
+	}
+	.yrise-theme-icon-column {
+		height: 147.5px;
+		width: 147.5px !important;
+		margin: 0 10px 10px 0 !important
+	}
+	.yrise-theme-fixed-content {
+		margin: 10px 0 0 0 !important;
+		padding-bottom: 45px !important;
+	}
+	.yrise-theme-icon-column .elementor-widget-heading .elementor-widget-container {
+		height: 147.5px;
+		width: 147.5px;
+	}
+	.yrise-theme-icon-image {
+		top: 15px;
+	}
+	.yrise-theme-icon-column img {
+		height: 35px !important;
+	}
+	.yrise-theme-icon-column .elementor-widget-heading .elementor-heading-title {
+		font-size: 11px !important;
+		padding: 0 15px;
+		top: 57px;
+		letter-spacing: 0px !important;
+	}
+	.yrise-theme-icon-column.yrise-theme-three .elementor-widget-heading .elementor-heading-title {
+		padding: 0 7px;
+	}
+	.yrise-theme-icon-column-link:last-of-type .yrise-theme-icon-column.yrise-theme-macro-custom-column {
+		margin-right: 10px !important;
+		margin-bottom: 0px !important;
+	}
+	.yrise-theme-icon-column.yrise-theme-icon-column-four,
+	.yrise-theme-one .yrise-theme-icon-column-link .yrise-theme-icon-column:first-of-type,
+	.yrise-theme-icon-column-link .yrise-theme-three,
+	.yrise-custom-spillover-icon {
+		margin-bottom: 0px !important;
+	}
+	.yrise-themes-lg-icon img {
+		right: -10px;
+		top: -50px;
+		width: 160px;
+	}
+	.yrise-themes-lg-icon.yrise-spillovers img {
+		top: -20px;
+		right: 0;
+	}
+
+	/* -- Partners Page -- */ 
+	.yrise-partners-page.yrise-themes-lg-icon img {
+		top: -30px;
+	}
+	.yrise-themes-lg-icon.yrise-partners-page.yrise-ipab img {
+		top: -20px;
+	}
+
+	/* -- People Page -- */ 
+	.page-id-1979 .yrise-feat-caption-text {
+		max-width: 300px;
+	}
+	.yrise-affiliated-researchers-title-section .yrise-page-heading,
+	.yrise-affiliated-researchers-title-section .yrise-mobile-tap-text p,
+	.yrise-research-staff-section .yrise-page-heading {
+		text-align: left !important;
+	}
+	.yrise-custom-nc-bg-section {
+		padding: 25px 10px 0px !important;
+	}
+	.yrise-custom-nc-bg-section .yrise-custom-director-column .elementor-widget-text-editor .elementor-widget-container {
+		margin-bottom: 25px !important;
+	}
+
+	/* -- Popup Window -- */
+	.yrise-people-description {
+		padding: 20px !important;
+		left: -8px;
+		height: auto;
+		width: 240px !important;
+		bottom: auto;
+	}
+	.yrise-people-description:after {
+		left: .5em;
+		top: .5em;
+		height: calc(100% - 1em);
+		width: calc(100% - 1em);
+	}	
+	.yrise-people-description .elementor-container {
+		padding-bottom: 5px !important;
+	}
+	.yrise-people-description .elementor-col-50:first-of-type {
+		width: 42%;
+	}
+	.yrise-people-description .elementor-col-50:last-of-type {
+		width: 52%;
+		margin-left: 10px;
+	}
+	.yrise-people-description h6 {
+		font-size: 15px !important;
+		line-height: 1.2 !important;
+	}
+	.yrise-people-description .elementor-widget-heading .elementor-widget-container {
+		border: 0px !important;
+		position: relative;
+	}
+	.yrise-people-description .elementor-widget-heading .elementor-widget-container:after {
+		position: absolute;
+		content: '';
+		height: 1px;
+		left: 0;
+		bottom: 0;
+		width: 52px;
+		border-bottom: 1px solid #00356b;
+	}
+	.yrise-people-description img {
+		width: 100px;
+	}
+	.yrise-people-description .elementor-widget-icon,
+	.yrise-conveners-expanded-text {
+		margin-right: -140%;
+	}
+	.yrise-conveners-info-column {
+		height: 100px;
+		margin: 8px 0 0 0;
+	}
+	#yrise-af-ahmed-mushfiq-mobarak .yrise-conveners-expanded-text {
+		margin-top: 100px !important;
+	}
+
+	/* -- People Page - Affiliated Researchers -- */ 
+	.yrise-affiliated-researchers-title-section {
+		margin-top: 30px !important;
+	}
+	.yrise-affiliated-researchers-columns-section {
+		padding: 0 !important;
+	}
+	.yrise-people-researcher-column {
+		width: 100% !important;
+		margin: 0;
+	}
+	.yrise-custom-nc-bg-section .yrise-people-researcher-column {
+		width: 100% !important;
+	}
+	.yrise-people-researcher-column:first-of-type,
+	.yrise-people-researcher-column:nth-of-type(2) {
+		margin: 0;
+	}
+	.yrise-people-researcher-column:last-of-type {
+		margin: 0;
+	}	
+	.yrise-people-researcher-column .elementor-widget-heading .elementor-widget-container {
+		padding: 15px 0 0 0 !important;
+	}
+	.yrise-people-researcher-column .yrise-people-researcher-title.yrise-af-two .elementor-widget-container,
+	.yrise-people-researcher-column .yrise-people-researcher-title.yrise-af-three .elementor-widget-container {
+		padding: 0 25px 0 0 !important;
+	}
+	.yrise-affiliated-researchers-columns-section {
+		margin-top: 15px !important;
+	}
+	.yrise-people-researcher-column .elementor-widget-text-editor .elementor-widget-container {
+		margin-bottom: 25px !important;
+	}
+	.yrise-people-researcher-column:last-of-type .elementor-widget-text-editor .elementor-widget-container {
+		margin-bottom: 0 !important;
+	}
+	.yrise-people-description.yrise-affiliated-researcher {
+		width: 240px !important;
+		left: 0;
+	}
+	.yrise-people-description.yrise-affiliated-researcher .elementor-widget-heading .elementor-widget-container::after {
+		width: 100%;
+	}
+	.yrise-affiliated-researcher .yrise-conveners-expanded-text {
+		margin-top: 30px !important;
+	}
+	.yrise-affiliated-researcher.yrise-custom-extra .yrise-conveners-expanded-text {
+		margin-top: 40px !important;
+	}
+	.yrise-affiliated-researcher.yrise-custom-nc .yrise-conveners-expanded-text {
+		margin-top: 60px !important;
+	}
+	.yrise-affiliated-researcher.yrise-custom-xl-nc .yrise-conveners-expanded-text {
+		margin-top: 75px !important;
+	}
+	.yrise-people-description.yrise-af-middle {
+		top: 500px;
+	}
+	.yrise-people-description.yrise-af-bottom {
+		top: 800px;
+	}
+	.yrise-people-description.yrise-af-bottom.yrise-af-external {
+		top: 900px;
+	}
+	.yrise-people-description.yrise-af-bottom.yrise-af-macro {
+		top: 1150px;
+	}
+
+	/* -- People Page - Staff Section -- */ 
+	.yrise-research-staff-section {
+		margin: 25px 0 70px !important;
+	}
+	.yrise-research-staff-section .yrise-people-researcher-column {
+		width: 100% !important;
+	}
+	.yrise-research-staff-section .yrise-page-heading,
+	.yrise-research-staff-section .yrise-page-heading .elementor-widget-container {
+		margin-bottom: 18px !important;
+	}
+	
+	/* -- Program Director - Temporary Code -- */
+	.yrise-staff-section::before {
+		height: 50px;	
+	}
+	.yrise-staff-column-title .elementor-widget-container {
+		padding-top: 0px !important;
+	}
+	.yrise-staff-column-title::after {
+		top: 25px;
+	}	
+
+	/* -- Research Page -- */
+	.yrise-research-icon-column-section {
+		width: 315px;
+		margin: 35px auto !important;
+	}
+	.yrise-research-icon-column {
+		height: 147.5px;
+		width: 147.5px !important;
+	}
+	.yrise-research-icon-column.yrise-research-icon-two {
+		margin: 0 0 20px 0;
+	}
+	.yrise-research-icon-column img {
+		width: 55px;
+	}	
+	.yrise-research-icon-column.yrise-research-icon-three img {
+		width: 60px;
+	}
+	.yrise-research-icon-column.yrise-research-icon-four img {
+		width: 65px;
+	}
+	.yrise-research-icon-column .elementor-heading-title {
+		font-size: 12.5px !important;
+	}
+	.yrise-research-icon-column .elementor-widget-image .elementor-widget-container {
+		margin-top: 23px !important;
+	}
+	.yrise-research-icon-column.yrise-research-icon-two .elementor-widget-image .elementor-widget-container {
+		margin: 24px 0 9.5px !important;
+	}
+	.yrise-research-icon-column.yrise-research-icon-four .elementor-widget-image .elementor-widget-container {
+		margin: 34px 0 9px !important;
+	}
+	.yrise-research-icon-column.yrise-research-icon-two .elementor-heading-title,
+	.yrise-research-icon-column.yrise-research-icon-three .elementor-heading-title {
+		padding: 0 25px;
+	}
+	.yrise-fixed-research-section {
+		width: 315px;
+	}
+	.yrise-research-theme-name-column {
+		width: 78% !important;
+	}
+	.yrise-policy-briefs-icon .elementor-widget-container img,
+	.yrise-research-datasets-icon .elementor-widget-container img {
+		height: 115px;
+		width: 115px;
+	}
+	.yrise-policy-briefs-icon .elementor-widget-container {
+		margin: -85px -20px -75px 0px !important;
+	}
+	.yrise-research-datasets-icon .elementor-widget-container {
+		margin: -85px -15px -125px 0px !important;
+	}
+	.yrise-datasets-survey-link .elementor-heading-title {
+		font-size: 18px !important;
+	}
+
+	/* -- Projects Page -- */
+	.page-id-1617 .yrise-feat-caption-text {
+		max-width: 330px;
+	}
+	.yrise-projects-page-section h2 {
+		font-size: 27px !important;
+	}
+	.yrise-projects-page-section:nth-of-type(4),
+	.yrise-projects-page-section:nth-of-type(6),
+	.yrise-projects-page-section:nth-of-type(9)  {
+		width: 295px !important;
+		padding: 20px !important;
+		margin-top: -6px !important;
+	}
+	.yrise-projects-lg-image-text-column {
+		width: 58% !important;
+		bottom: 20px;
+	}
+	.yrise-project-media.yrise-publications-and-media,
+	.yrise-project-publications.yrise-publications-and-media {
+		width: 100%;
+		margin: 0;
+	}
+	.yrise-project-publications.yrise-publications-and-media {
+		margin: 0 0 5px 0;
+	}
+	.yrise-themes-button .elementor-button-text {
+		font-size: 11.5px;
+		padding: 0 0 3px 0 !important;
+	}
+	.yrise-custom-projects-text-column {
+		margin-top: -8px;
+	}
+	.yrise-custom-projecs-button-one .elementor-widget-container {
+		padding: 0 !important;
+	}
+	.yrise-projects-lg-image-text-column .elementor-widget-text-editor p {
+		font-size: 24px !important;
+		line-height: 1.15;
+	}
+	.yrise-projects-overlay-list li {
+		font-size: 14px !important;
+		line-height: 1.6;
+	}
+
+	/* -- Partners Page -- */
+	#yrise-jpal-logo img {
+		width: 250px;
+	}
+	#yrise-jpal-logo .elementor-widget-container {
+		margin-bottom: 20px !important;
+	}
+	
+	/* -- COVID-19 -- */
+	.yrise-covid-partners-logo-section .elementor-col-25 {
+		width: 100% !important;
+	}
+	.yrise-covid-policies-section {
+		margin: -5px 0 50px !important;
+	}
+	.yrise-theme-fixed-content.yrise-partners-page.yrise-covid-activities-section {
+		margin: 0 0 60px 0 !important;
+	}
+	.yrise-partners-page.yrise-covid-page {
+		margin-top: 45px !important;
+	}
+	.yrise-list-title {
+		margin: 40px 0 0 0;
+	}
+	.yrise-covid19-list-item:first-of-type {
+		padding-top: 30px;
+	}
+	.yrise-covid19-list-item:last-of-type {
+		margin-bottom: 55px;
+	}
+	.yrise-covid19-thumbnail,
+	.yrise-covid19-content {
+		width: 100%;
+		display: block; 
+		float: none;
+	}
+	.yrise-covid19-list-item h2 {
+		font-size: 22.5px;
+	}
+	.yrise-covid19-doc-header {
+		margin: 7px 0 22px;
+	}
+	.yrise-covid-activities-section {
+		margin: 0 0 70px 0 !important;
+	}
+	.yrise-covid-partners-section {
+		margin-bottom: 75px !important;
+	}
+	.yrise-covid-partners-logo-section {
+		margin-bottom: 40px !important;
+	}
+	.yrise-covid-partners-logo-section .elementor-row .elementor-column:nth-of-type(1),
+	.yrise-covid-partners-logo-section .elementor-row .elementor-column:nth-of-type(2),
+	.yrise-covid-partners-logo-section .elementor-row .elementor-column:nth-of-type(3) {
+		margin-bottom: 40px !important;
+	}
+	.yrise-covid-partners-logo-section:last-of-type,
+	.yrise-covid-partners-logo-section:last-of-type .elementor-row .elementor-column:nth-of-type(3) {
+		margin-bottom: 0px !important;
+	}
+	.yrise-covid-partners-logo-section:last-of-type .elementor-column:last-of-type {
+		display: none;
+	}
+	.yrise-custom-doc-inner-section {
+		margin-bottom: 45px !important;
+	}
+	.yrise-pagination a {
+		margin-bottom: 60px;
+	}
+
+	/* -- Contact Page -- */
+	#yrise-subscription-form {
+		margin-bottom: 35px !important;
+	}
+	.mc4wp-form input {
+		padding: 12px;
+		font-size: 16px;
+		width: 90%;
+	}
+	.mc4wp-form select {
+		padding: 0 12px;
+		font-size: 16px;
+		height: 46px;
+		width: 100%;
+	}
+	.mc4wp-form input[type="submit"] {
+		width: 90%;
+	}
+	#yrise-subscription-box .elementor-column-wrap {
+		padding: 20px !important;
+	}
+	.yrise-subscription-title .elementor-widget-container {
+		border-bottom: 0px !important;
+		position: relative;
+	}
+	.yrise-subscription-title .elementor-heading-title {
+		font-size: 25px !important;
+		line-height: 1.2 !important;
+	}
+	.yrise-subscription-title .elementor-widget-container:after {
+		position: absolute;
+		content: '';
+		width: 167px;
+		bottom: -6px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		height: 1px;
+		border-bottom: 1px solid;
+	}
+	.yrise-contact-us-map-column iframe {
+		height: 250px !important;
+	}
+	.yrise-contact-us-text-column {
+		text-align: center;
+	}
+	.yrise-contact-email-address {
+		margin-bottom: -4px !important;
+	}
+	.yrise-contact-us-text .elementor-widget-container {
+		padding: 20px 20px 0 !important;
+	}
+
+	/* -- Error Page -- */
+	.yrise-error-page h1 {
+    	font-size: 80px;
+    }	
+	.yrise-error-page p {
+    	width: auto;
+    }	
+    .yrise-error-page {
+		padding: 30px 0 50px;
+	}
+	.yrise-error-button {
+		font-size: 13px;
+	}
+
+	/* -- Footer -- */ 
+	#yrise-footer {
+		font-size: 12px;
+		line-height: 19px;
+		padding: 25px 0;
+	}
+	.yrise-footer-column-one {
+		width: 67%;
+		padding: 0 20px 0 0;
+	}
+	#yrise-footer-copyright {
+		padding: 9px 0 0 0;
+	}
+	.yrise-footer-column-two {
+		width: 26%;
+	}
+	#yrise-subscription-cta p  {
+		margin: 24px 0 0 0;
+	}
+	#yrise-subscription-cta p a {
+		width: 58px;
+		padding: 22px 11px;
+	}
+	.yale-twitter img {
+		width: 14.5px;
+	}	
+}	
