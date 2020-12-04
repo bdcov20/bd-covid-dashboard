@@ -21,11 +21,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Trends
 % hh Skipping Meals
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/food_ins_time.png")
 ```
 
-%hh skipping meals
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/fd_ins.png")
+```
 
 %hh able to buy essential food items (compare to  previous week)
 
@@ -33,8 +35,27 @@ Amount of rice, lentil, onion and potato bought last time
 
 Share HH facing market closure
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/mkts_clsd.png")
+```
+
 Change in commodity prices over time
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/aman_coarse.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/masur_local.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/onion_group.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/potato_group.png")
+```
 
 ### Maps
 
@@ -46,6 +67,10 @@ Change in commodity prices over time
 Difference in monthly income
 (show breakdown by source)
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/pre_post_income.png")
+```
+
 
 ### Maps
 
@@ -56,7 +81,19 @@ Difference in monthly income
 ### Trends
 Food security 
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/nls_food_ins_mig.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/cbps_food_ins_mig.png")
+```
+
 Change in income
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/g2g_inc_mig.png")
+```
 
 % migrate (by district)
 
@@ -78,8 +115,23 @@ Value of the support provided
 
 %hh receiving support from NGO/Govt for Covid-19 
 
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/ngo_gov_sprt.png")
+```
 
 ### Maps
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/Disability allowance_fy19-20.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/oldage allowance_fy19-20.png")
+```
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/widow allowance_fy19-20.png")
+```
 
 ### Definition of Measures
 
@@ -93,6 +145,10 @@ Value of the support provided
 %people attend social gatherings
 
 % selling assets to deal with Covid
+
+```{r , echo=FALSE, fig.cap="A caption", out.width = '70%'}
+knitr::include_graphics("figures/sell_assets_use_savings_2.png")
+```
 
 % people and/or household members experienced any of the symptoms in the past 2 weeks
 ### Maps
